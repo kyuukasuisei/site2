@@ -1,0 +1,89 @@
+<!doctype html>
+<html lg="jp">
+  <head> 
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--reset CSS-->
+    <link rel="stylesheet" href="../reset.css"> 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="temerature.css">
+    </head>
+    <body>
+     <header class="header">
+       <h1>体温をちょうどよく<span>偽装</span>するサイト</h1>
+     </header>
+     <main class="container-fluid main">
+        <section class="section row">
+          <div class="input_temperature col-md-6">
+            <p>半角数字で入力してください。↓</p>
+            <p class="explain">平熱</p>
+            <input id="avg_tem" class="avg_tem" placeholder="平熱 例：36.5" type="number">
+            <div><label for="days" class="explain">どのくらい</label></div>
+            <select id="days" class="days" name="days">
+              <option selected class="option1" value=0>1日分</option>
+              <option class="option2" value=4>5日分</option>
+              <option class="option3" value=9>10日分</option>
+            </select>
+            <div class="button_frame">
+              <button id="outPut">体温を出す</button>
+            </div>
+          </div>
+          <div class="table_frame col-md-6 col-12">
+            <table class="table">
+              <tr>
+                <td></td>
+                <th></th>
+              </tr>
+              <tr>
+                <td></td>
+                <th></th>
+              </tr>
+              <tr>
+                <td></td>
+                <th></th>
+              </tr>
+              <tr>
+                <td></td>
+                <th></th>
+              </tr>
+              <tr>
+                <td></td>
+                <th></th>
+              </tr>
+              <tr>
+                <td></td>
+                <th></th>
+              </tr>
+              <tr>
+                <td></td>
+                <th></th>
+              </tr>
+              <tr>
+                <td></td>
+                <th></th>
+              </tr>
+              <tr>
+                <td></td>
+                <th></th>
+              </tr>
+              <tr>
+                <td></td>
+                <th></th>
+              </tr>
+              <tr>
+                <td></td>
+                <th></th>
+              </tr>
+            </table>
+          </div>
+       </section>
+       <section class="row section2">
+        <div class="col-12">
+          <p>なんか、このご時世こういうのは表に出さない方がいいかもしれない。</p>
+        </div>
+       </section>
+     </main>
+     <script src="temperature.js"></script>
+    </body>
