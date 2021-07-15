@@ -1,0 +1,60 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.header {
+  color: whitesmoke;
+  background-color: #82ABA1;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 50px 0;
+}
+.header span {
+  color: black;
+}
+
+.main .section {
+  background-color: #B1F0FB;
+  height: 400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.main .section .input_temperature {
+  text-align: center;
+}
+.main .section .input_temperature .explain {
+  margin: 0;
+}
+.main .section .input_temperature .avg_tem {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.main .section .input_temperature .days {
+  width: 200px;
+  border-radius: 5px;
+}
+.main .section .input_temperature .button_frame {
+  margin-top: 30px;
+}
+.main .section .input_temperature .button_frame button {
+  border-radius: 5px;
+  background-color: #B8E1FF;
+  color: black;
+}
+.main .table_frame {
+  text-align: center;
+}
+.main .table_frame table tr td {
+  display: none;
+  border-top: none;
+}
+.main .table_frame table tr th {
+  display: none;
+  border-top: none;
+}
+.main .section2 {
+  background-color: #F3F9D2;
+}
+.main .section2 div {
+  text-align: center;
+}
