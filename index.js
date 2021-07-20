@@ -7,7 +7,7 @@
   const $outPut =$doc.getElementsByTagName("button");
 
   //平熱に値を足す
-  const Tem =["-0.5", "-0.4", "-0.3", "-0.2", "-0.1", "0.0", "0.1", "0.2", "0.3",]
+  const Tem =["-0.4", "-0.3", "-0.2","-0.1", "-0.1", "0.0", "0.1", "0.1", "0.2",]
   let choose=[1,1,1,1,1,1,1,1,1]
   const makeTem = () => {
     let choose_addTem = Math.floor(Math.random()*choose.length);
